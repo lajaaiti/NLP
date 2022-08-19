@@ -1,9 +1,9 @@
 ## la data
-pour les données de notre projet il est necessaire de telecharger le fichiers csv suivant ce lien: (https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/csv/289df373-42e6-40fe-a3ab-8c8110f0a571.csv). renommer le fichier comme suit : data.csv; ensuite mettre ce fichier dans un dossier, que vous venez de creer, nomme data1.
+pour les données de notre projet il est necessaire de telecharger un fichiers csv en suivant ce lien: (https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/csv/289df373-42e6-40fe-a3ab-8c8110f0a571.csv). renommer le fichier comme suit : data.csv; ensuite enregistrez ce fichier dans un nouveau dossier nomme data1.
 
 ## le projet:
 
-- vu le volume important des secuences (16201), j'ai commencé par difinir une longueur maximal de 3000 et entrainer un model avec 7 epochs qui a donné une accuracy de 91%. ensuite j'ai entrainé un autre model avec 2500 sequences et 7 epochs tjrs qui a donné 88%. il est a noté que cet entrainnement etait realise sur googlecolab.
+- vu le volume important des sequences (16201), j'ai commencé par difinir une longueur maximal de 3000 et entrainer un model avec 7 epochs qui a donné une accuracy de 91%. ensuite j'ai entrainé un autre model avec 2500 sequences et 7 epochs tjrs qui a donné 88%. il est a noté que cet entrainnement etait realise sur googlecolab.
 - j'ai essayeé de faire un entrainement en local sur ma machine :
         *1000 sequences et 5 epochs pour un score de 78%
         *1200 sequences et 10 epochs => accuracy : 93%
